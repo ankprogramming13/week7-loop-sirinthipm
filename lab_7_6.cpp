@@ -2,7 +2,17 @@
 
 using namespace std;
 
-int main () {
+  int main ()
+{
+    int number;
+    cin >> number;
+    cout << "Base\tMul\tResult" << endl;
+    for( int a = 1; a < 13; a = a + 1 )
+    {
+        cout << number << "\t" << a << "\t" << number*a << endl;
+
+    }
+    return 0;
 
   /* เขียนโปรแกรมตารางแม่สูตรคูณที่แสดงผลดังนี้
 
